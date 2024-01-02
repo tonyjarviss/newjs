@@ -4,7 +4,13 @@ This bot allows you to download files from Terabox and more through Telegram.
 
 ## Deploy
 
+# Heroku
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BalaPriyan/terabox-tg-bot)
+
+# Koyeb
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/BalaPriyan/terabox-tg-bot&env[WEBHOOK]&env[BOT_TOKEN]&run_command=python%20bot.py&branch=main&name=TeraBoxBot)
 
 
 [Bot link](https://t.me/terabox_dl_arman_bot)
