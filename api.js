@@ -3,7 +3,7 @@ const axios = require("axios");
 async function getDetails(id) {
     try {
         const response = await axios.get(
-            `http://terabox-dl.qtcloud.workers.dev/api/get-info?shorturl=${id}&pwd=`
+            `https://bot-nine-rho.vercel.app/api/get-info?shorturl=${id}&pwd=`
         );
       
         return response.data;
@@ -21,7 +21,7 @@ async function getDownloadLink(data) {
         };
 
         const response = await axios.post(
-            "https://terabox-dl.qtcloud.workers.dev/api/get-download",
+            "https://bot-nine-rho.vercel.app/api/get-download",
             data,
             config
         );
